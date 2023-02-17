@@ -1,7 +1,6 @@
 import React from 'react';
 import { Title } from './Notification.styled';
 import PropTypes from 'prop-types';
-
 export function Notification({ children }) {
   return <Title>{children}</Title>;
 }
@@ -9,3 +8,5 @@ export function Notification({ children }) {
 Notification.propTypes = {
   children: PropTypes.string.isRequired,
 };
+
+//
